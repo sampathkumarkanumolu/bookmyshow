@@ -5,7 +5,7 @@ pipeline {
         jdk 'jdk17'
         nodejs 'node23'
     }
-    environment {
+    environment 
         SCANNER_HOME = tool 'sonar-scanner'
     }
     stages {
